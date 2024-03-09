@@ -35,6 +35,6 @@ git clone git@github.com:lvgalvao/dashboard.git
 cd dashboard
 
 ```bash
-docker build dashboard-image
-docker run -d -p 
+docker build dashboard-image .
+docker run -d -p 8501:8501 --name my-first-container first-docker-app
 ```
